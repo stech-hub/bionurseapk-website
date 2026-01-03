@@ -1,52 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Download My App</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Download My App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-body{
-  font-family: Arial;
-  text-align: center;
-  background:#0b1220;
-  color:white;
-  padding-top:50px;
-}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #0b1220;
+      color: white;
+      padding-top: 50px;
+      margin: 0;
+    }
 
-.box{
-  width:90%;
-  max-width:450px;
-  margin:auto;
-  background:#101b34;
-  padding:25px;
-  border-radius:15px;
-}
+    .box {
+      width: 90%;
+      max-width: 450px;
+      margin: auto;
+      background: #101b34;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
 
-button{
-  background:#1e90ff;
-  border:none;
-  padding:15px 25px;
-  font-size:18px;
-  border-radius:10px;
-  color:white;
-}
-</style>
+    h1 {
+      margin-bottom: 10px;
+      color: #1e90ff;
+    }
 
+    p {
+      margin: 10px 0;
+    }
+
+    button {
+      background: #1e90ff;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      background: #63b3ff;
+    }
+
+    .info {
+      text-align: left;
+      margin-top: 20px;
+      background: #0a1526;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="box">
-<h1>My Android App</h1>
-<p>Click the button below to download the app</p>
+  <div class="box">
+    <h1>My Android App</h1>
+    <p>Click the button below to download the app</p>
 
-<a href="myapp.apk" download>
-<button>Download APK</button>
-</a>
+    <a href="https://github.com/stech-hub/bionurseapk-website/releases/download/v1/myapp.apk" target="_blank">
+      <button>Download APK</button>
+    </a>
 
-<p style="margin-top:15px;">Version: 1.0</p>
-<p>Developed by Me 😊</p>
-</div>
+    <p style="margin-top:15px;">Version: 1.0 | Size: 7.13 MB</p>
+    <p>Developed by Me 😊</p>
+
+    <div class="info">
+      <h3>App Features:</h3>
+      <ul>
+        <li>Easy to use interface</li>
+        <li>Fast performance</li>
+        <li>Secure and reliable</li>
+        <li>Works on most Android devices</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 My App. All rights reserved.
+  </footer>
 
 </body>
 </html>
