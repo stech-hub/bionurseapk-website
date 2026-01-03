@@ -1,6 +1,8 @@
+
 import Layout from "../components/Layout";
 import Scholarships from "../components/Scholarships";
 import Courses from "../components/Courses";
+import Notes from "../components/Notes";
 
 export default function Home() {
   return (
@@ -35,6 +37,9 @@ export default function Home() {
 
       {/* Courses Section */}
       <Courses />
+
+      {/* Notes & Procedures Section */}
+      <Notes />
     </Layout>
   );
 }
