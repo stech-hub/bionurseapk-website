@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My App Download</title>
+<title>Download My App</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+  font-family: Arial;
+  text-align: center;
+  background:#0b1220;
+  color:white;
+  padding-top:50px;
+}
+
+.box{
+  width:90%;
+  max-width:450px;
+  margin:auto;
+  background:#101b34;
+  padding:25px;
+  border-radius:15px;
+}
+
+button{
+  background:#1e90ff;
+  border:none;
+  padding:15px 25px;
+  font-size:18px;
+  border-radius:10px;
+  color:white;
+}
+</style>
+
 </head>
 
-<body style="font-family: Arial; text-align:center; padding-top:40px;">
-<h1>Welcome to My App</h1>
-<p>Click the button below to download</p>
+<body>
 
-<a href="myapp.apk" download
-style="padding:15px 25px; background:#007bff; color:white; text-decoration:none; border-radius:10px;">
-Download App
+<div class="box">
+<h1>My Android App</h1>
+<p>Click the button below to download the app</p>
+
+<a href="myapp.apk" download>
+<button>Download APK</button>
 </a>
 
-<p style="margin-top:30px;">Developed by Me 😊</p>
+<p style="margin-top:15px;">Version: 1.0</p>
+<p>Developed by Me 😊</p>
+</div>
+
 </body>
 </html>
