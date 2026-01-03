@@ -1,8 +1,8 @@
-
 import Layout from "../components/Layout";
 import Scholarships from "../components/Scholarships";
 import Courses from "../components/Courses";
 import Notes from "../components/Notes";
+import Quizzes from "../components/Quizzes";
 
 export default function Home() {
   return (
@@ -40,6 +40,9 @@ export default function Home() {
 
       {/* Notes & Procedures Section */}
       <Notes />
+
+      {/* Quizzes Section */}
+      <Quizzes />
     </Layout>
   );
 }
