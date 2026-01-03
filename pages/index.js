@@ -1,8 +1,10 @@
+
 import Layout from "../components/Layout";
 import Scholarships from "../components/Scholarships";
 import Courses from "../components/Courses";
 import Notes from "../components/Notes";
 import Quizzes from "../components/Quizzes";
+import Support from "../components/Support";
 
 export default function Home() {
   return (
@@ -43,6 +45,9 @@ export default function Home() {
 
       {/* Quizzes Section */}
       <Quizzes />
+
+      {/* Support / Donations Section */}
+      <Support />
     </Layout>
   );
 }
